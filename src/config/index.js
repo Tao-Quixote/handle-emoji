@@ -1,0 +1,1 @@
+export { getEmojiUnicode } from './emoji'
