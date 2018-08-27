@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+test/unit/coverage
+test/e2e/reports
+debug.log
+selenium-debug.log
+.idea/
+.vscode/
+.cache-loader/
+.coverage-report/
+activity-config/
+*.swp
