@@ -14,6 +14,7 @@ npm install handle-emoji
 
 ```javascript
 import { detect } from 'handle-emoji'
+import emoji from 'handle-emoji'
 ```
 
 ### detect
@@ -24,6 +25,7 @@ import { detect } from 'handle-emoji'
 detect(str) // true or false
 
 detect("This one includes emoji: 😄") // true
+emoji.detect("This one includes emoji: 😄") // true
 ```
 
 ## emoji range

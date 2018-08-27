@@ -1,5 +1,1 @@
-import emojiUnicode from './emoji'
-
-export default {
-  emojiUnicode
-}
+export { getEmojiUnicode } from './emoji'
