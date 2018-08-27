@@ -1,0 +1,23 @@
+{
+  "name": "handle-emoji",
+  "version": "0.0.1",
+  "description": "Handle emojis in EcmaScript strings. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tao-Quixote/handle-emoji.git"
+  },
+  "keywords": [
+    "handle",
+    "emoji"
+  ],
+  "author": "TaoQuixote <web.taox@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tao-Quixote/handle-emoji/issues"
+  },
+  "homepage": "https://github.com/Tao-Quixote/handle-emoji#readme"
+}
