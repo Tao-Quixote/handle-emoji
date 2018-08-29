@@ -1,7 +1,8 @@
-export { detect } from './src/lib'
+import { detect, allUnicode } from './src/lib'
 
-import { detect } from './src/lib'
+export { detect, allUnicode } from './src/lib'
 
 export default {
-  detect
+  detect,
+  allUnicode
 }
