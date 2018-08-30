@@ -2,6 +2,11 @@
 
 This tool includes some API to handle emoji.
 
+## Feature
+
+* No dependencies
+* Light weight
+
 ## Install
 
 ```shell
@@ -9,6 +14,11 @@ npm install handle-emoji
 ```
 
 ## Usage
+
+### API List
+
+* detect - tell if a char is emoji or not.
+* allUnicode - get unicode array that included in this module.
 
 ### import
 
@@ -26,6 +36,21 @@ detect(str) // true or false
 
 detect("This one includes emoji: 😄") // true
 emoji.detect("This one includes emoji: 😄") // true
+```
+
+### allUnicode
+
+```javascript
+import { allUnicode } from 'handle-emoji'
+
+allUnicode() // get all emoji unicode included in this module.
+
+// result:
+[
+  [0x0080, 0x0081, 0x0082, ..., 0x2AF], // 0x0080 - 0x2AF
+  ...
+  [0x1F980, 0x1F981, ..., 0x1F9E0] // 0x1F980 - 0x1F981
+]
 ```
 
 ## emoji range
