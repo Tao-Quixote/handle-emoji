@@ -1,6 +1,6 @@
 {
   "name": "handle-emoji",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Handle emojis in EcmaScript strings. ",
   "main": "index.js",
   "scripts": {
